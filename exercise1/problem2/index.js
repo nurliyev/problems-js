@@ -1,5 +1,5 @@
 function intWithinBounds() {
-  // Your code
+  return Number.isInteger(n) && n >= lower && n <= upper;
 }
 
 module.exports = intWithinBounds;
