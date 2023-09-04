@@ -4,15 +4,8 @@ function longestTime(h, m, s) {
     const minutes = m * 60;
     const seconds = s;
 
-    const maxDuration = Math.max(hours, minutes, seconds);
+    return hours > minutes && hours > seconds ? h : minutes > hours && minutes > seconds ? m : s; 
 
-    if (maxDuration === hours) {
-        return h;
-    } else if (maxDuration === minutes) {
-        return m;
-    } else {
-        return s;
-    }
 }
 
 console.log(longestTime(1, 59, 3598)) // 1
