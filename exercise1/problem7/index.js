@@ -1,5 +1,5 @@
-function isPrimitve() {
+function isPrimitive() {
   // Your code
 }
 
-module.exports = isPrimitve;
+module.exports = isPrimitive;

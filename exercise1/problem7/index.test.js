@@ -15,7 +15,7 @@ describe("exercise1 - problem7", () => {
     { arg: () => null, expected: false },
     { arg: {}, expected: false },
     { arg: [1, 2, 3], expected: false },
-  ])(".isPrimitive($arg)", ({ num, lower, upper, expected }) => {
-    expect(isPrimitive(num, lower, upper)).toBe(expected);
+  ])(".isPrimitive($arg)", ({ arg, expected }) => {
+    expect(isPrimitive(arg)).toBe(expected);
   });
 });
