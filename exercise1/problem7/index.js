@@ -1,5 +1,5 @@
 function isPrimitive() {
-  // Your code
+    return value !== null && value !== "";
 }
 
 module.exports = isPrimitive;
