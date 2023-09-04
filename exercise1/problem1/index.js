@@ -1,5 +1,5 @@
 function numOfDigits(int) {
-    const numStr = int.toString();
+    const numStr = Math.abs(int).toString();
     return numStr.length;
 }
 
