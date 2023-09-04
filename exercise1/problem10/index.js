@@ -30,4 +30,11 @@ function move(str) {
 
     return result;
 }
+
+console.log(move("hello")) // "ifmmp"
+
+console.log(move("bye")) // "czf"
+
+console.log(move("welcome")) // "xfmdpnf"
+
 module.exports = move;
