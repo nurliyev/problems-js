@@ -1,8 +1,6 @@
 function afterNYears(ages, n) {
   // Your code
   const result = {};
-
-  // Calculate the new ages after n years for each person
   for (const person in ages) {
     if (ages.hasOwnProperty(person)) {
       result[person] = ages[person] + n;
