@@ -7,7 +7,7 @@ function duplicateNums(nums) {
     const arrayofnumbers = nums[i];
     numCount[arrayofnumbers] = (numCount[arrayofnumbers] || 0) + 1;
 
-    if (numCount[nums] === 2) {
+    if (numCount[arrayofnumbers] === 2) {
       duplicates.push(arrayofnumbers);
     }
   }
