@@ -10,8 +10,6 @@ function afterNYears(ages, n) {
   return result;
 }
 
-module.exports = afterNYears;
-
 console.log(
   afterNYears(
     {
@@ -65,3 +63,5 @@ console.log(
 //   Genie: 1005,
 //   Joe: 45,
 // };
+
+export default afterNYears;

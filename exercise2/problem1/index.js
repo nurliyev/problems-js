@@ -21,4 +21,5 @@ console.log(arrayOfMultiples(12, 10)); // [12, 24, 36, 48, 60, 72, 84, 96, 108, 
 console.log(arrayOfMultiples(17, 6)); // [17, 34, 51, 68, 85, 102]
 
 console.log(arrayOfMultiples(11, 21));
-module.exports = arrayOfMultiples;
+
+export default arrayOfMultiples;

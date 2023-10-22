@@ -2,4 +2,4 @@ function isPrimitve() {
   // Your code
 }
 
-module.exports = isPrimitve;
+export default isPrimitve;

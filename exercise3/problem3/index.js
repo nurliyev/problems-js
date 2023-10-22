@@ -2,4 +2,4 @@ function pentagonal() {
   // Your code
 }
 
-module.exports = pentagonal;
+export default pentagonal;

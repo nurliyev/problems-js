@@ -2,4 +2,4 @@ function move() {
   // Your code
 }
 
-module.exports = move;
+export default move;

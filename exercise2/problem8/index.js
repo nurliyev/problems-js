@@ -16,8 +16,6 @@ function isEqual(object1, object2) {
   return true;
 }
 
-module.exports = isEqual;
-
 console.log(
   isEqual(
     {
@@ -48,5 +46,4 @@ console.log(
   )
 ); // true
 
-// Create a function that checks to see if two object arguments are equal to one another.
-// Return `true` if the objects are equal, otherwise, return `false`.
+export default isEqual;

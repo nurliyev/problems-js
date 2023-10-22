@@ -14,10 +14,10 @@ function duplicateNums(nums) {
   return duplicates.sort((a, b) => a - b);
 }
 
-module.exports = duplicateNums;
-
 console.log(duplicateNums([1, 2, 3, 4, 3, 5, 6])); // [3]
 
 console.log(duplicateNums([81, 72, 43, 72, 81, 99, 99, 100, 12, 54])); // [72, 81, 99]
 
 console.log(duplicateNums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); // []
+
+export default duplicateNums;

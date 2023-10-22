@@ -14,4 +14,4 @@ console.log(
   ])
 );
 
-module.exports = getStudentsWithNamesAndTopNotes;
+export default getStudentsWithNamesAndTopNotes;

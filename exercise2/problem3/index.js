@@ -16,4 +16,4 @@ console.log(numbersSum([true, false, "123", "75"])); // 0
 
 console.log(numbersSum([1, 2, 3, 4, 5, true])); // 15
 
-module.exports = numbersSum;
+export default numbersSum;

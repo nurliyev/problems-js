@@ -2,4 +2,4 @@ function removeABC() {
   // Your code
 }
 
-module.exports = removeABC;
+export default removeABC;

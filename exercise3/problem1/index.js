@@ -2,4 +2,4 @@ function concat() {
   // Your code
 }
 
-module.exports = concat;
+export default concat;

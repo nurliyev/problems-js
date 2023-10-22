@@ -2,4 +2,4 @@ function insertWhitespace() {
   // Your code
 }
 
-module.exports = insertWhitespace;
+export default insertWhitespace;

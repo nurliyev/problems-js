@@ -11,4 +11,4 @@ console.log(sortIt([4, 1, 3])); // [1, 3, 4]
 console.log(sortIt([[4], [1], [3]])); // [[1], [3], [4]]
 console.log(sortIt([4, [1], 3])); // [[1], 3, 4]
 
-module.exports = sortIt;
+export default sortIt;

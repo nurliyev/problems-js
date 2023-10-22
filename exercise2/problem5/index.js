@@ -22,4 +22,5 @@ console.log(
     { name: "Martin", age: 16, budget: 1600 },
   ])
 ); // 62600
-module.exports = getBudgets;
+
+export default getBudgets;
