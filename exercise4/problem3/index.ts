@@ -1,6 +1,9 @@
 // Update it as much as you want, just don't change the name
 export class Circle {
-  constructor(private radius: number) {}
+  radius: number;
+  constructor(radius: number) {
+    this.radius = radius;
+  }
 
   getArea(): number {
     return Math.PI * this.radius * this.radius;
@@ -8,7 +11,13 @@ export class Circle {
 }
 // Update it as much as you want, just don't change the name
 export class Rectangle {
-  constructor(private width: number, private height: number) {}
+  width: number;
+  height: number;
+
+  constructor(width: number, height: number) {
+    this.width = width;
+    this.height = height;
+  }
 
   getArea(): number {
     return this.width * this.height;
@@ -23,6 +32,3 @@ const circle1 = new Circle(2);
 const circle2 = new Circle(3);
 const rect1 = new Rectangle(2, 4);
 const rect2 = new Rectangle(3, 2);
-
-console.log(sumOfAllAreas(circle1, circle2)); // ~ 40.84 (approximately)
-console.log(sumOfAllAreas(circle1, rect1)); // 20
