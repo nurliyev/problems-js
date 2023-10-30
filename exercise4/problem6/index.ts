@@ -1,19 +1,19 @@
 // Update it as much as you want, just don't change the names
 
 export class BankAccount {
-  private balance: number;
+  #balance: number;
 
   constructor() {
-    this.balance = 0;
+    this.#balance = 0;
   }
 
   withdraw(amount: number): number {
-    if (amount > this.balance) {
+    if (amount > this.#balance) {
       return -1;
     }
 
-    this.balance -= amount;
-    return this.balance;
+    this.#balance -= amount;
+    return this.#balance;
   }
 
   deposit(amount: number): number {
@@ -21,8 +21,8 @@ export class BankAccount {
       return -1;
     }
 
-    this.balance += amount;
-    return this.balance;
+    this.#balance += amount;
+    return this.#balance;
   }
 }
 
