@@ -55,10 +55,14 @@ export function withdrawMoney(
   }
 }
 
+<<<<<<< HEAD
 export function sendLetterTo(
   accounts: FedexAccount | KazPostAccount,
   recipient: string
 ) {
+=======
+export function sendLetterTo(accounts, recipient) {
+>>>>>>> 78bd007deddd7fb8ba5fcf95636a3c40cbed2d8c
   for (const account of accounts) {
     account.sendMail(recipient);
   }

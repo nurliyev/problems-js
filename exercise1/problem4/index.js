@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function makeTitleCase(str) {
   let array1 = str.split(" ");
   let words = [];
@@ -16,4 +17,10 @@ console.log(makeTitleCase("I Like Pizza")); // "I Like Pizza"
 
 console.log(makeTitleCase("PIZZA PIZZA PIZZA")); // "PIZZA PIZZA PIZZA"
 
+=======
+function makeTitleCase() {
+  // Your code
+}
+
+>>>>>>> 78bd007deddd7fb8ba5fcf95636a3c40cbed2d8c
 export default makeTitleCase;
