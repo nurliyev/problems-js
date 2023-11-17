@@ -34,7 +34,7 @@ async function fetchPokemon(name: string) {
       name: json.name,
       height: json.height,
       weight: json.weight,
-      sprites: json.sprites.front_default,
+      image: json.sprites.front_default,
     };
   } catch (error) {
     return Promise.reject(new Error("smth went wrong"));
