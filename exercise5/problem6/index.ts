@@ -27,15 +27,15 @@ async function fetchPokemon(name: string) {
     //   image: data.sprites.front_default,
     // };
     // return pokemonInfo;
-  
+
     const json: Pokemon = await response.json();
     return {
-      id: json.id;
-      name: json.name;
-      height: json.height;
-      weight: json.weight;
-      sprites: json.sprites.front_default;
-    }
+      id: json.id,
+      name: json.name,
+      height: json.height,
+      weight: json.weight,
+      sprites: json.sprites.front_default,
+    };
   } catch (error) {
     return Promise.reject(new Error("smth went wrong"));
   }
