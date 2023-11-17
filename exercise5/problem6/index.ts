@@ -14,21 +14,11 @@ async function fetchPokemon(name: string) {
 
     if (!response.ok) {
       //console.error(`Error: HTTP status ${response.status}`);
-      await Promise.reject(new Error());
+      await Promise.reject(new Error("some error"));
     }
 
-    // const data = await response.json();
-
-    // const pokemonInfo = {
-    //   id: data.id,
-    //   name: data.name,
-    //   height: data.height,
-    //   weight: data.weight,
-    //   image: data.sprites.front_default,
-    // };
-    // return pokemonInfo;
-
     const json: Pokemon = await response.json();
+
     return {
       id: json.id,
       name: json.name,
